@@ -1,25 +1,23 @@
 # To add new addon weapons do
 
 ## Add to qb-core/shared/weapons.lua
-### OBS: Check default weapons and copy from there
+#### OBS: Check default weapons and copy from there
 
 ```lua
 
 [`weapon_m4a4`] = {['name'] = 'weapon_m4a4', ['label'] = 'M4A4', ['ammotype'] = 'AMMO_RIFLE',	['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
-
 [`weapon_awp`] = {['name'] = 'weapon_awp', ['label'] = 'AWP', ['ammotype'] = 'AMMO_SNIPER',	['damagereason'] = 'Sniped / Picked off / Scoped'},
 
 ```
 
 
 ## Add to qb-core/shared/items.lua
-### OBS: Check default weapons and copy from there
+#### OBS: Check default weapons and copy from there
 
 ```lua
 
-['weapon_awp'] 		 = {['name'] = 'weapon_awp', 	 	['label'] = 'AWP', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SNIPER',			['image'] = 'weapon_awp.png', ['unique'] = true, 	['useable'] = false, 	['description'] = 'A AWP'},
-
-['weapon_m4a4'] 		 = {['name'] = 'weapon_m4a4', 	 	['label'] = 'M4A4', 			['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_RIFLE',			['image'] = 'weapon_m4a4.png', ['unique'] = true, 	['useable'] = false, 	['description'] = 'A M4A4'},
+['weapon_awp'] = {['name'] = 'weapon_awp', ['label'] = 'AWP', ['weight'] = 1000, ['type'] = 'weapon', 	['ammotype'] = 'AMMO_SNIPER', ['image'] = 'weapon_awp.png', ['unique'] = true, ['useable'] = false, ['description'] = 'A AWP'},
+['weapon_m4a4'] = {['name'] = 'weapon_m4a4', ['label'] = 'M4A4', ['weight'] = 1000, ['type'] = 'weapon', ['ammotype'] = 'AMMO_RIFLE', ['image'] = 'weapon_m4a4.png', ['unique'] = true, ['useable'] = false,['description'] = 'A M4A4'},
 
 ```
 
@@ -28,10 +26,10 @@
 ## Add to qb-weapons/config.lua
 
 
-### Go to WeaponAttachments
-### and add weapon attachments
-### OBS: Check default weapons and copy from there
-### OBS2: component names are in ReadMe.txt that you send me with weapons
+**Go to WeaponAttachments and add weapon attachments**
+
+#### OBS: Check default weapons and copy from there
+#### OBS2: component names are in ReadMe.txt that you send me with weapons
 
 ```lua
 

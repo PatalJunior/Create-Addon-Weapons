@@ -19,6 +19,9 @@
 ['weapon_awp'] = {['name'] = 'weapon_awp', ['label'] = 'AWP', ['weight'] = 1000, ['type'] = 'weapon', 	['ammotype'] = 'AMMO_SNIPER', ['image'] = 'weapon_awp.png', ['unique'] = true, ['useable'] = false, ['description'] = 'A AWP'},
 ['weapon_m4a4'] = {['name'] = 'weapon_m4a4', ['label'] = 'M4A4', ['weight'] = 1000, ['type'] = 'weapon', ['ammotype'] = 'AMMO_RIFLE', ['image'] = 'weapon_m4a4.png', ['unique'] = true, ['useable'] = false,['description'] = 'A M4A4'},
 
+['awp_asiimovfinish'] = {['name'] = 'pistol_luxuryfinish', ['label'] = 'Assimov AWP Finish', ['weight'] = 1000, ['type'] = 'item', ['image'] = 'awp_asiimovfinish.png', ['unique'] = false['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Pistol Luxury Finish'},
+
+
 ```
 
 
